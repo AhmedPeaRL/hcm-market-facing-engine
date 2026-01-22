@@ -1,0 +1,14 @@
+openapi: 3.1.0
+info:
+  title: HCM Market Presence
+  version: "0.0.0"
+
+paths:
+  /presence:
+    get:
+      description: >
+        This endpoint does not trigger logic.
+        It reflects existence only.
+      responses:
+        "200":
+          description: Presence acknowledged
