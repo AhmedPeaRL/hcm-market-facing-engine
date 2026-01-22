@@ -1,0 +1,9 @@
+This environment contains no executable promise.
+
+No input guarantees output.
+No transition guarantees change.
+
+Execution may occur.
+Execution may not occur.
+
+The system does not decide.
