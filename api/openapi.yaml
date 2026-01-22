@@ -1,0 +1,19 @@
+openapi: 3.1.0
+info:
+  title: HCM Rhythm Interface
+  version: "0.0.0"
+  description: >
+    This API does not expose actions.
+    It exposes presence only.
+
+paths:
+  /presence:
+    get:
+      summary: Presence declaration
+      responses:
+        "200":
+          description: Presence acknowledged
+          content:
+            application/json:
+              schema:
+                $ref: "../interface/interface.state.schema.json"
