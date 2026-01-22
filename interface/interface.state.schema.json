@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HCM Interface Presence State",
+  "type": "object",
+  "properties": {
+    "presence": {
+      "type": "string",
+      "enum": ["present"]
+    },
+    "rhythmic_alignment": {
+      "type": "string",
+      "enum": ["unknown"]
+    },
+    "intent": {
+      "type": "null"
+    }
+  },
+  "required": ["presence"]
+}
